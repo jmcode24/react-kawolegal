@@ -1,0 +1,63 @@
+.heads {
+  color: whitesmoke;
+}
+
+.active {
+  border: 1px solid darkred;
+  font-weight: bold;
+}
+
+.showcase {
+  height: 100vh;
+  background-image: linear-gradient(rgba(139, 0, 0,0.7),rgba(139, 0, 0,0.7)), url('../images/legal-2.jpg');
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff ;
+}
+
+.showcase_inner button {
+  background-color: deepskyblue;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.showcase_inner button a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav{
+	background-color: darkred;
+}
+
+.cont {
+  margin-top: 100px;
+}
+
+.cont-1 {
+  margin-top: 130px;
+}
+
+.cont-b {
+  margin-bottom: 170px;
+}
+
+footer {
+  background-color: darkred;
+  margin-top: 20px;
+}
+
+footer p {
+  color: white;
+}
+
+footer ul li {
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: lightblue;
+}
