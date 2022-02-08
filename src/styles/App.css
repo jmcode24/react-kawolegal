@@ -1,10 +1,12 @@
 .heads {
-  color: whitesmoke;
+  color: khaki;
 }
 
 .active {
-  border: 1px solid darkred;
+  border-bottom: 2px solid black;
+  font-size: large;
   font-weight: bold;
+  font-style: italic;
 }
 
 .showcase {
