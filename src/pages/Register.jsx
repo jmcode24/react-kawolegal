@@ -17,8 +17,8 @@ function Register() {
               <Form.Control type="text" placeholder="Enter Full Name" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" />
+              <Form.Label>Email Address</Form.Label>
+              <Form.Control type="email" placeholder="Enter Email" />
               <Form.Text className="text-muted">
                 We'll never share your email with anyone else.
               </Form.Text>
@@ -30,7 +30,7 @@ function Register() {
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicPassword">
               <Form.Label>Confirm Password</Form.Label>
-              <Form.Control type="password" placeholder="Re-enter Password" />
+              <Form.Control type="password" placeholder="Re-Enter Password" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
               <Form.Check type="checkbox" label="Check me out" />

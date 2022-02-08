@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Heada from './Heada'
+import Header from './Header'
 import Home from '../pages/Home';
 import Startups from '../pages/Startups';
 import Register  from '../pages/Register';
@@ -10,7 +10,7 @@ function Router() {
   return (
     <>
       <BrowserRouter>
-        <Heada />
+        <Header />
 
         <Routes>
         <Route path='/' element={<Home />} />

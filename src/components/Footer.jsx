@@ -6,7 +6,7 @@ function Foot() {
   return(
     <>
     <footer class="d-flex py-3 px-5">
-        <p>&copy; 2021 Kawolegal. All Right Reserved</p>
+        <p>&copy; 2022 Kawolegal. All Right Reserved</p>
         <ul class="ms-auto d-flex">
           <li><FaFacebookF /></li>
           <li><FaTwitter /></li>

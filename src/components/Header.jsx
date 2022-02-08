@@ -5,7 +5,7 @@ import Img from '../images/logo.png';
 import '../styles/App.css';
 import { NavLink } from 'react-router-dom';
 
-const Heada = () => {
+const Header = () => {
   return(
     <>
       <Navbar fixed="top" bg="" variant="light" className="nav">
@@ -23,4 +23,4 @@ const Heada = () => {
   );
 };
 
-export default Heada;
+export default Header;

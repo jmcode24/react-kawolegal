@@ -11,7 +11,7 @@ function Home() {
         <div class="showcase_inner">
           <h1>KAWOLEGAL</h1>
           <p>A collaborative ecosystem for problem <br />solvers and support for startups.</p>
-          <Button as={Link} to='/register'>Register Now!</Button>
+          <Button as={Link} to='/register'>Register Now !</Button>
         </div>
       </section>
 
