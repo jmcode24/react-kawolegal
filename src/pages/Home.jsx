@@ -1,12 +1,16 @@
 import React from 'react';
 import '../styles/App.css';
-import { Button } from 'react-bootstrap'
+import { Helmet } from 'react-helmet';
+import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Foot from '../components/Footer';
 
 function Home() {
   return (
     <>
+    <Helmet>
+      <title>Kawolegal | Home</title>
+    </Helmet>
       <section class="jumbotron jumbotron-fluid showcase">
         <div class="showcase_inner">
           <h1>KAWOLEGAL</h1>

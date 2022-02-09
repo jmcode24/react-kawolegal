@@ -1,11 +1,15 @@
 import React from 'react';
 import '../styles/App.css';
+import { Helmet } from 'react-helmet';
 import Foot from '../components/Footer';
 import { Container, Row, Form, Button } from 'react-bootstrap';
 
 function Login() {
   return(
     <>
+    <Helmet>
+      <title>Kawolegal | Log In</title>
+    </Helmet>
       <Container className='cont-1 cont-b'>
         <Row>
           <h3>Already a Member? Login to add your Startup.</h3>

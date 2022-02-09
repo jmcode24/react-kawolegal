@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/App.css';
+import { Helmet } from 'react-helmet';
 import Foot from '../components/Footer';
-// import Image from '../components/Image';
 import Slate from '../images/slatecube.png';
 import Sleek from '../images/sleek.png';
 import Think from '../images/think&zoom.jpg';
@@ -11,6 +11,9 @@ import { FaSearchengin } from "react-icons/fa";
 function Startups() {
   return (
     <>
+    <Helmet>
+      <title>Kawolegal | Startups</title>
+    </Helmet>
       <Container className='cont p-2'>
         <Row className='mb-4 mt-3'>
         <InputGroup className="mb-3">

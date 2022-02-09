@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
   return(
     <>
-      <Navbar fixed="top" bg="" variant="light" className="nav">
+      <Navbar fixed="top" bg="" variant="light" className="nav top-0 w-full">
         <Container>
         <Navbar.Brand> <Image logo={Img}/> </Navbar.Brand>
         <Nav className="ms-auto nav-item">

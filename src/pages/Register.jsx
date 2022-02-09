@@ -1,11 +1,15 @@
 import React from 'react';
 import '../styles/App.css';
+import { Helmet} from 'react-helmet';
 import { Container, Row, Form, Button} from 'react-bootstrap';
 import Foot from '../components/Footer';
 
 function Register() {
   return(
     <>
+    <Helmet>
+      <title>Kawolegal | Register</title>
+    </Helmet>
       <Container className='cont-1'>
         <Row className='mb-4'>
           <h3>Join KawoLegal. Sign up to get your startup listed now!</h3>
