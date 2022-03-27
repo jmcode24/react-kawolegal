@@ -11,8 +11,8 @@ function Home() {
     <Helmet>
       <title>Kawolegal | Home</title>
     </Helmet>
-      <section class="jumbotron jumbotron-fluid showcase">
-        <div class="showcase_inner">
+      <section className="jumbotron jumbotron-fluid showcase">
+        <div className="showcase_inner">
           <h1>KAWOLEGAL</h1>
           <p>A collaborative ecosystem for problem <br />solvers and support for startups.</p>
           <Button as={Link} to='/register'>Register Now !</Button>

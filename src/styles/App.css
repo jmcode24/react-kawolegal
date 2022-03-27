@@ -3,9 +3,11 @@
 }
 
 .active {
-  border-bottom: 2px solid black;
-  font-size: large;
-  font-weight: bold;
+  border-top: whitesmoke solid 2px;
+  border-left: whitesmoke solid 2px;
+  border-right: black solid 2px;
+  border-bottom: black solid 2px;
+  font-weight: bolder;
   font-style: italic;
 }
 
